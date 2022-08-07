@@ -17,9 +17,9 @@ function App() {
     dispatch(getLists())
   }, [])
   return (
-    <div className="App" style={{ backgroundColor: '#e3e2e1' }}>
+    <div className="App">
       <Container>
-        <Table striped hovered hover className='mt-5'>
+        <Table striped hovered hover variant='dark' className='mt-5'>
           <thead>
             <tr>
               <th>No</th>
